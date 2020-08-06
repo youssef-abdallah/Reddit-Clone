@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="float-right mt-3">
+                <% if account_signed_in? %>
+                    <%= link_to "Logout", destroy_account_session_path, method: :delete, class: "btn btn-primary" %>
+                <% else %> 
+                    <%= link_to "Log in", new_account_session_path, class: "btn btn-outline-primary" %>
+                    <%= link_to "Sign up", new_account_registration_path, class: "btn btn-primary" %>
+                <% end %>
+            </div>
+            <p class="h3 pt-3 pb-3 border-bottom">
+                <%= link_to "Reddit Clone", root_path %> 
+            </p>
+        </div>
+    </div>
+</div>
