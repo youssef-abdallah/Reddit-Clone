@@ -1,24 +1,10 @@
-# README
+# Reddit Clone using Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a clone to reddit.com, it provides basic functionality for
+forums and communities where people can post and comment.
 
-Things you may want to cover:
+* It implements RESTful API and nested resources.
 
-* Ruby version
+* Basic styling using bootstrap classes.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Postgres database
