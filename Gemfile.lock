@@ -108,6 +108,7 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
+    options (2.3.2)
     orm_adapter (0.5.0)
     pg (1.2.3)
     public_suffix (4.0.5)
@@ -148,6 +149,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    rb-readline (0.5.5)
     regexp_parser (1.7.1)
     responders (3.0.1)
       actionpack (>= 5.0)
@@ -217,9 +219,11 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  options
   pg
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.2)
+  rb-readline
   sass-rails (>= 6)
   selenium-webdriver
   spring
